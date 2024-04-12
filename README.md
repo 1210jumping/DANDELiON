@@ -308,15 +308,15 @@ This is a screenshot of test coverage:
 **Feature Category: UI Design and Testing**  <br>
 
 3. [UI-Layout] UI must have portrait and landscape layout variants as well as support for different screen sizes. Simply using Android studio's automated support for orientation and screen sizes and or creating support without effort to make them look reasonable will net you zero marks. (easy) 
-    * class: [portrait](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/tree/main/MyEducationApp/app/src/main/res/layout) and [landscape](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/tree/main/MyEducationApp/app/src/main/res/layout-land) 
+    * class: [portrait](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/layout) and [landscape](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/layout-land) 
      
    
     Additional description: This app is compatible with multiple models ranging from Pixel 2 to Pixel 6, accommodating various screen sizes. A landscape layout has been designed for each page in addition to the standard layout. Consequently, every page layout file includes both portrait and landscape designs.<br>
     
 4. [UI-Test] UI tests using espresso or similar. Please note that your tests must be of reasonable quality. (hard)
-   * Class: [LoginTest.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/androidTest/java/espresso/LoginTest.java), lines of code: whole file
-   * Class: [RegisterTest.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/androidTest/java/espresso/RegisterTest.java), lines of code: whole file
-   * Class: [SearchTest.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/androidTest/java/espresso/SearchTest.java), lines of code: whole file
+   * Class: [LoginTest.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/androidTest/java/espresso/LoginTest.java), lines of code: whole file
+   * Class: [RegisterTest.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/androidTest/java/espresso/RegisterTest.java), lines of code: whole file
+   * Class: [SearchTest.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/androidTest/java/espresso/SearchTest.java), lines of code: whole file
 
    Additional description: We tested 3 main functional pages in our UI test, which are *Login page*, *Register page* and *Search page*.
       * For login page, we tested following features:
