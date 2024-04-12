@@ -36,7 +36,7 @@
 
 **Application Use Cases and Example**
 
-![UML-Use Case Diagram](./images/use_case.jpg)
+![UML-Use Case Diagram](./items/images/use_case.jpg)
 
 * Bernardo wants to register an account for the DANDELiON app.
    1. He accesses the DANDELiON app and goes to the Login Page.
@@ -112,14 +112,14 @@
 1. *Red Black Tree*
    * *Objective: It is used for storing and sorting Comments  for  storage and interactivity feature.*
    * *Locations:*
-     * [Line 50-52 in Global.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L50-52)
+     * [Line 50-52 in Global.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L50-L52)
    * *Reasons:*
      * *It is more efficient than Arraylist for insertion and sorting*
 2. *ArrayList*
    * *Objective: It is used for storing courses, users, and messages, and is assigned to the adatpter of RecyclerView for message feature and  data visualisation feature.*
    * *Locations:*
-     * [Line 46-47 in Global.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L46-47)
-     * [Line 42 in ChatActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatActivity.java#L42)
+     * [Line 46-47 in Global.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L46-L47)
+     * [Line 42 in ChatActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatActivity.java#L42)
    * *Reasons:*
      * *It is more efficient to access data in position i with a time complexity O(1)*
 
@@ -129,7 +129,7 @@
 3. *HashMap*
    * *Objective: It is used for storing the pair of courses and comment information, and course enroll information, it is for user Interactivity feature.*
    * *Locations:*
-     * [Line 52-57](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L52-57)
+     * [Line 52-57](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L52-L57)
    * *Reasons:*
      * *The course is key, and the comments related to the course is value, it is more efficient to access the comment list by key*
 
@@ -139,25 +139,25 @@
 
 1. *DAO*
    * *classes:*
-     * [CommentDao.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java)
-     * [CourseDao.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java)
-     * [UserDao.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/UserDAO/UserDao.java)
+     * [CommentDao.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java)
+     * [CourseDao.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java)
+     * [UserDao.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/UserDAO/UserDao.java)
    * *Explaination:*
      * Use DAO design pattern when retrieving course, user and comment data from firebase. Data Access Object (DAO) pattern is used to separate low-level data access APIs from high-level logical services.
      * We create *User.java*, *UserDAO.java* and *UserDaoInterface.java* for getting user data. The same with Course data and Comment data.
      * The interface defines the standard operations to be performed on a model object. The Dao class implements the  interface and is responsible for obtaining data from firebase. The object class is a simple Java Bean that contains the get & set method to store the data retrieved using the Dao class.
 2. *Adapter*
    * *classes:*
-     * [ChatAdapter.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatAdapter.java)
-     * [ContactListAdapter.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ContactListAdapter.java)
-     * [MycourseAdapter.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/MycourseAdapter.java)
+     * [ChatAdapter.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatAdapter.java)
+     * [ContactListAdapter.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ContactListAdapter.java)
+     * [MycourseAdapter.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/MycourseAdapter.java)
    * *Explaination:*
      * We use ChatAdapter to fit the message into corresponding recyyclerView according to whether the message is sent by the user and received by the user, e.g. the message received by the user will be displayed in the left and the message sent by the user will be displayed in the right.
      * We use ContactListAdapter to fit the contact into a list and display them in the recyclerView, where we will display the name of the contact and the message.
      * We use MycourseAdapter to display the card view of the course which user has enrolled. 
 3. *Singleton*
    * *classes:*
-     * [MyUser.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/UserDAO/MyUser.java)
+     * [MyUser.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/UserDAO/MyUser.java)
    * *Explaination:*
      * The singleton design pattern used is lazy singleton, which means we intialize the instance when we call the getInstance() for the first time.
      * In our project, there is only one current user at a time, so the class should create its own unique instance when the user login or register. And the instance should be reset to null when the user log out.
@@ -197,7 +197,7 @@ Additionally, the use of semicolons as a separator enables users to combine seve
 
    * classes:
       * [CourseParser.java](MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/CourseParser.java)
-      * [CourseToken.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/CourseToken.java)
+      * [CourseToken.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/CourseToken.java)
       * [CourseTokenizer.java](MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/CourseTokenizer.java)
       * [Tokenizer.java](MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/Tokenizer.java)
 
@@ -258,50 +258,50 @@ This is a screenshot of test coverage:
 ### Basic App
 1. [Login]. Description of the feature and your implementation (easy)
 
-    * Class: [MainActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/MainActivity.java#L1-31)
-    * Class: [LoginActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L64-413)
-    * Class: [RegisterActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/register/RegisterActivity.java#L46-392)
+    * Class: [MainActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/MainActivity.java#L1-L31)
+    * Class: [LoginActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L64-L413)
+    * Class: [RegisterActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/register/RegisterActivity.java#L46-L392)
 
    Additional description: The login page requires students to enter their registered email address and username to login. A pop-up window will appear for emails that are not registered. Students can use the registration page to gain login access and add personal details.<br>
 
 2. [Data  instances]. There must be data file(s) with at least 2,500 valid data instances. The data files must be used to feed your app, simulating a data stream. For example, every x seconds, a new item is read from a file. An item can be an action (e.g., a new set of lecture notes has been posted by a lecturer; students are added to a course; an assessment submission; a new user signed up; etc). (easy)
 
-    * Class:[DataGenerator](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/DataGenerator.java)
-    * Class:[LocalFileToFirebase](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
-    * Class:[Comment.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/Comment.java)
-    * Class:[CommentDao.class](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java)
+    * Class:[DataGenerator](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/DataGenerator.java)
+    * Class:[LocalFileToFirebase](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
+    * Class:[Comment.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/Comment.java)
+    * Class:[CommentDao.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java)
     * File: [comment.xml](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/assets/comment.xml)
 
    Additional description: 2500 comment data is generated randomly and be writen to firebase. All comments can be loaded from firebase and feeded to our app. Users can see comments in course detail page. <br>
 
 3. [Search]. Users must be able to search for information on your app. (medium)
-   * Class:[SearchActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java)
+   * Class:[SearchActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java)
    * Class:[search_course.xml](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/layout/search_course.xml)
 
    Additional description: This page provides user to seach courses based on different keywords, i.e. course number(`CNO`), course name(`CNAME`), subject(`SUB`) and lecturer(`LEC`). This function is implecated by tokenizer and parser by analyse the input string into different tokens then perform search operation. 
    <br>
 
 4. [Data visualization].Users must be able to load data/information (from the data file(s) or Firebase) and visualise it (e.g., a list of courses and/or a list of lecturers and students as users). (medium)
-   * Class:[CourselistFragment](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/courselist/CourselistFragment.java)
-   * Class:[CourseDao line 31-62](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L31-62)
-   * Class:[CourselistFragment](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/courselist/CourselistFragment.java)
-   * Class:[CourseDao line 31-62](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L31-62)
+   * Class:[CourselistFragment](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/courselist/CourselistFragment.java)
+   * Class:[CourseDao line 31-62](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L31-L62)
+   * Class:[CourselistFragment](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/courselist/CourselistFragment.java)
+   * Class:[CourseDao line 31-62](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L31-L62)
 
    Additional description: In our app, we randomly generate some data instances, including course, user, and comment. Those data firstly be writen to local files, then we migrate them to firebase. Course data is able to be loaded from firebase into a RecycleView to display, and when a course is clicked, a detailed page with more information will be displayed, users can see comments be posted in the course detail page. In our app, all courses information and comments can be loaded from firebase and can be visualized using recyclerView. <br>
 
 ### General Features
 **Feature Category: Search-related** <br>
 1. [Search-Invalid] Search functionality can handle partially valid and invalid search queries. (medium) 
-   * Class CourseParser, methods `public static class IllegalParserException extends IllegalArgumentException`, `public CourseParser(String searchText)`, `public void parseExp()`, `public void parseTerm()`, `public boolean isMatched(Course course)`,Lines of code: [20-57](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/CourseParser.java#L20-97)
-   * Class SearchActivity, methods `public boolean isMatched(Course course)`, Lines of code: [158-196](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java#L158-196)
+   * Class CourseParser, methods `public static class IllegalParserException extends IllegalArgumentException`, `public CourseParser(String searchText)`, `public void parseExp()`, `public void parseTerm()`, `public boolean isMatched(Course course)`,Lines of code: [20-97](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/TokenizerAndParser/CourseParser.java#L20-L97)
+   * Class SearchActivity, methods `public boolean isMatched(Course course)`, Lines of code: [158-196](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java#L158-L196)
    
    Additional description: When user need to search courses, there is a hint in our text box showing `eg. CNO=;CNAME=;LEC=;SUB=;`. When user obey the search rules, right results will be presented below the search box. When user input invalid strings, our `CourseParse.java` class will throw an error, and then there will be a Toast appearing on the screen. Also, we provide fuzzy search, i.e. partially invalid search. This is implemented by substring match using inbuild `contains()` function. 
 
 <br>
 
 2. [Search-Filter] Sort and/or filter a list of items returned from a search, with the help of suitable UI components. For instance, when searching for assignments, include checkboxes for users to select the target course(s); include drop-down field for the selection of sorting methods, etc. (easy)
-    * Class:[Course.java Line 201-226](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/Course.java#L201-226)
-    * Class:[SearchActivity.java Line 100-123](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java#L100-123)
+    * Class:[Course.java Line 201-226](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/Course.java#L201-L226)
+    * Class:[SearchActivity.java Line 100-123](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java#L100-L123)
 
    Additional description: User can sort a list of courses returned from a search, with the help of buttons and radios, For example, when user check "sort by cno" radio, the result list will be sorted according to the course number, and when user check "sort by time" radio, the result will be sorted according to the date of course. Similarly, when user click "^" button, the result will be in ascend order. We implement this by implement comparabl interface and override compareTo() method for Course.class.<br>
 
@@ -339,16 +339,16 @@ This is a screenshot of test coverage:
 
 5. [Data-Formats] Read data instances from multiple local files in at least 2 different formats (JSON, XML or Bespoken). (easy)
    
-   * Class:[DataGenerator.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/DataGenerator.java)
-   * Class: [LocalFileToFirebase.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
+   * Class:[DataGenerator.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/DataGenerator.java)
+   * Class: [LocalFileToFirebase.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
    
    Additional description: We used .xml, .json and .csv formats. The local files are in assets folder, including user.json, course.json, comment.xml, content.csv, subject.csv. <br>
    
 6. [Data-Profile] User profile or Course material activity containing a media file (image, animation (e.g. gif), video). (easy) 
    
-   * Class: [Global.java Line 67-124](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L67-124)
-   * Class: [MycourseAdapter.java Line 66-70](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/MycourseAdapter.java#L66-70)
-   * Class: [CourseHomeActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseHomeActivity.java#L37-137)
+   * Class: [Global.java Line 67-124](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L67-L124)
+   * Class: [MycourseAdapter.java Line 66-70](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/MycourseAdapter.java#L66-L70)
+   * Class: [CourseHomeActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseHomeActivity.java#L37-L137)
    
    Additional description: The video shows the course content and assigns a default avatar to each student and course.
    
@@ -356,34 +356,34 @@ This is a screenshot of test coverage:
    
 7. [Data-GPS] Use GPS information (see the demo presented by our tutors. For example, your app may use the latitude/longitude to show information relevant to your app. An example is to display localised based on the location of the user app. (e.g., English materials if the user is located in an English speaking country)). (easy)
    
-   * Class [LoginActivity](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java): 
-      * [private boolean checkLocationPermission()](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L269-278)
-      * [ public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L285-299)
-      * [private Location getLocation()](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L301-318)
-      * [private String getAddress(Location location)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L320-335)
-      * [private void setLanguage(String country)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L337-358)
+   * Class [LoginActivity](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java): 
+      * [private boolean checkLocationPermission()](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L269-L278)
+      * [ public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L285-L299)
+      * [private Location getLocation()](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L301-318)
+      * [private String getAddress(Location location)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L320-L335)
+      * [private void setLanguage(String country)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L337-L358)
    
    Additional description: Check and request location permissions, retrieve the device's last known location, obtain the address corresponding to a location, set the language based on the country. Overall, the code aims to enable location-based functionality and language customization in the application.<br>
    
 8. [Data-Graphical] Graphical report viewer. Provide users with the ability to see a report of interactions with your app (e.g., summary of assessment results for a course or an individual student, etc), in a graphical manner. (medium) 
    
-   * Class [DeadlineshowFragment](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowFragment.java)
-   * Class [DeadlineshowViewModel](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowViewModel.java)
+   * Class [DeadlineshowFragment](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowFragment.java)
+   * Class [DeadlineshowViewModel](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowViewModel.java)
    
    Additional description: 'DeadlineshowFragment' for displaying a calendar and associated to-do lists. The 'DeadlineshowViewModel' class is used to manage the text data related to the calendar.<br>
 
 **Feature Category: User Interactivity** <br>
 
 9. [Interact-Micro] The ability to micro-interact with items/users (e.g. add to todo-list, like/follow a post in the forum, connect to another user, etc.) [stored in-memory]. (easy)
-   * Class:[Comment.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/Comment.java)
-   * Class:[CourseHomeActivity.class Line 101-122](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseHomeActivity.java#L101-122)
+   * Class:[Comment.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/Comment.java)
+   * Class:[CourseHomeActivity.class Line 101-122](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseHomeActivity.java#L101-L122)
 
    Additional description: User can interact with course by sending comment to the course and reviewing comments of the course. When comment is sent by a user, it will be updated to the firebase, and all other user can see this comment.<br>
 
 10. [Interact-Follow] The ability to ‘follow’ a course or any specific items. There must be a section specifically dedicated to 'things' followed (e.g., showing all updates from all courses followed in chronological order). [stored in-memory] (medium) 
-    * Class:[CourseHomeActivity.java Line 83-91](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseHomeActivity.java#L83-91)
-    * Class:[CourseJoinActivity.java Line 93-100](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseJoinActivity.java#L93-100)
-    * Class:[myCourseFragment.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/mycourse/myCourseFragment.java)
+    * Class:[CourseHomeActivity.java Line 83-91](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseHomeActivity.java#L83-L91)
+    * Class:[CourseJoinActivity.java Line 93-100](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/course/CourseJoinActivity.java#L93-L100)
+    * Class:[myCourseFragment.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/mycourse/myCourseFragment.java)
      
     
      Additional description: User can enroll and drop a course. When user enrolled a course, the user can send comments about the course and send peer to peer message with users who enrolled the same course. Also, the user can check what courses he has enrolled in "MyCourse" page.<br>
@@ -392,54 +392,54 @@ This is a screenshot of test coverage:
 
 11. [Privacy-Visibility] A student can only see a course’s profile that is set to Public (consider that there are at least two types of profiles: public and private) or after being added to the course as a student (easy). 
 
-    * Class:[Global.java Line 194-239](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L194-239)
+    * Class:[Global.java Line 194-239](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/Global.java#L194-L239)
 
      Additional description: Access to course content, evaluations and chatting with students on the same course is only available to students who are registered for this course. Students can gain these permissions by registering for a course.<br>
 
 **Feature Category: Creating Processes**   <br>
 
 12. [Process-visualise] Process visualisation. Your app may implement a graphical element to visualise the progress of a process (e.g., stages of Group Projects or course completion). (medium)
-    * Class [DeadlineshowFragment](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowFragment.java)
-    * Class [DeadlineshowViewModel](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowViewModel.java)
+    * Class [DeadlineshowFragment](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowFragment.java)
+    * Class [DeadlineshowViewModel](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/deadline/DeadlineshowViewModel.java)
     
      Additional description: 'DeadlineshowFragment' for displaying a calendar and associated to-do lists. The 'DeadlineshowViewModel' class is used to manage the text data related to the calendar.<br>
 
 **Feature Category: Peer to Peer Messaging** <br>
 
 13. [P2P-DM] Provide users with the ability to message each other directly in private. (hard) 
-    * Class:[Message.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/Message.java)
-    * Class:[ChatActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatActivity.java)
-    * Class:[ChatAdapter.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatAdapter.java)
+    * Class:[Message.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/Message.java)
+    * Class:[ChatActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatActivity.java)
+    * Class:[ChatAdapter.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatAdapter.java)
 
      Additional description: 'DeadlineshowFragment' is responsible for presenting a calendar and the corresponding to-do lists. The 'DeadlineshowViewModel' class is utilized to handle the text data associated with the calendar.<br>
 
 14. [P2P-Restriction] Enable users to restrict who can message them by some association (e.g. setting: can message me only if we are currently enrolled in the same course). (hard) 
-    * Class:[ContactListActivity.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ContactListActivity.java)
-    * Class:[ContactListApdapter.java](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ContactListAdapter.java)
-    * Class:[CourseDao.java Line 75-145](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L75-145)
+    * Class:[ContactListActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ContactListActivity.java)
+    * Class:[ContactListApdapter.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ContactListAdapter.java)
+    * Class:[CourseDao.java Line 75-145](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L75-L145)
 
      Additional description: We display those users who enrolled in the same courses with the login user in the contactList using recyclerView, we get the enroll information and get the courses the login user enrolled and judge which users are in the same courses. When user click on the contact, the app will jump to "chat" page and they can send peer to peer messages.<br>
 
 **Feature Category: Firebase Integration**<br>
 
 15. [FB-Auth] Use Firebase to implement User Authentication/Authorisation. (easy) 
-    * Class:[LoginActivity.java Line 363-412](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L363-412)
-    * Class:[RegisterActivity.java Line 341-380](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/register/RegisterActivity.java#L341-380)
+    * Class:[LoginActivity.java Line 363-412](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/login/LoginActivity.java#L363-L412)
+    * Class:[RegisterActivity.java Line 341-380](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/register/RegisterActivity.java#L341-L380)
 
      Additional description: when user sign up or login, their email and password will be stored in firebase authentication. <br>
     
 16. [FB-Persist] Use Firebase to persist all data used in your app. (medium) 
-    * Class:[LocalFileToFirebase](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
-    * Class:[UserDao.java Line 93-121](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/UserDAO/UserDao.java#L93-121)
-    * Class:[CourseDao.java Line 31-62](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L31-62)
-    * Class:[CommentDao.java Line 36-72](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java#L36-72)
+    * Class:[LocalFileToFirebase](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
+    * Class:[UserDao.java Line 93-121](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/UserDAO/UserDao.java#L93-L121)
+    * Class:[CourseDao.java Line 31-62](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CourseDAO/CourseDao.java#L31-L62)
+    * Class:[CommentDao.java Line 36-72](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java#L36-L72)
     * Firebase link:https://console.firebase.google.com/project/myeducationapp-8cde4/firestore/data/~2FCourseList?utm_source=studio
      
     
      Additional description: All the data are firstly stored in local file and then we migrate them to firebase manually. We use DAO to write and retrieve data from firebase and then feed them into our app. We store all those data except message in firebase storage, and store message data in firebase realtime database. Because we need to update message and notify user in real time, so we store message in realtime database. However, for the other data, we don't need to much update, what we need is querying and sorting, so we used firebase storage to store those data.<br>
     
 17. [FB-Syn] Using Firebase or another remote database to store user information and having the app updated as the remote database is updated without restarting the application. e.g. User A (a lecturer) posts an announcement, user B on a separate instance of the application sees the announcement appear on their app instance without restarting their application. (hard) 
-    * Class:[ChatActivity.java Line 85-98](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatActivity.java#L85-98)
+    * Class:[ChatActivity.java Line 85-98](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/chat/ChatActivity.java#L85-L98)
      
     
      Additional description: We stored message data in firebase realtime database, since we need those data to be updated and notify users in real time. Using firebase realtime database, we can keep the message updated and notify user in real time. when another user send a message, the user whom the message sent to can receive it without restarting the app.<br>
