@@ -1,0 +1,30 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_country">
+        <item>Australia</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Germany</item>
+        <item>New Zealand</item>
+        <item>United Kingdom</item>
+        <item>United States of America</item>
+    </string-array>
+
+    <string-array name="reply_language">
+        <item>English</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="reply_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>I prefer not to say</item>
+
+    </string-array>
+
+
+</resources>

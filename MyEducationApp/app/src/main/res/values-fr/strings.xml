@@ -1,0 +1,218 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">DANDELiON</string>
+
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+    <string name="Terms_of_use">
+    <![CDATA[
+        <h2>TERMS OF USE FOR DANDELION</font></h2>
+        <p>Welcome to Dandelion, an app designed to help students study courses, chat with course mates, do assignments, and quizzes online.
+        These terms of use govern your access to and use of the Dandelion app.
+        By using Dandelion, you agree to be bound by these terms of use.
+        <p><b>If you do not agree to these terms, please do not use Dandelion.</b></p>
+        <p><b>Registration and Account Security</b></p>
+        <p>To use Dandelion, you must create an account and provide accurate and complete information.
+        You are responsible for maintaining the confidentiality of your account information and for any activity that occurs on your account.
+        You agree to notify us immediately of any unauthorized use of your account or any other breach of security.</p>
+        <p><b>Use of Dandelion</b></p>
+        <p>Dandelion is intended for personal and educational use only.
+        You agree not to use Dandelion for any commercial purpose.
+        You are solely responsible for your use of Dandelion, including any content or information that you submit, post, or transmit through the app.</p>
+        <p><b>Content and Intellectual Property </b></p>
+        <p>All content and intellectual property on Dandelion, including but not limited to text, graphics, images, logos, and software, are the property of Dandelion or its licensors.
+        You may not copy, modify, distribute, or use any content from Dandelion without prior written consent.</p>
+        <p><b>User Conduct</b></p>
+        <p>You agree to use Dandelion in compliance with all applicable laws and regulations.You agree not to:<p>
+        <ul>
+        <li>Upload, post, or transmit any content that is illegal, harmful, threatening, abusive, harassing, defamatory, obscene, or otherwise objectionable.</li>
+        <li>Engage in any conduct that could disrupt or interfere with the functionality of Dandelion or the servers and networks used to operate Dandelion.</li>
+        <li>Attempt to gain unauthorized access to any portion of Dandelion, other accounts, or computer systems or networks connected to Dandelion.</li>
+        <li>Use any automated means, including robots, spiders, or scrapers, to access Dandelion for any purpose without our express written permission.</li>
+        </ul>
+        <p><b>Limitation of Liability</b></p>
+        <p>Dandelion and its affiliates will not be liable for any damages of any kind arising from the use of Dandelion, including but not limited to direct, indirect, incidental, punitive, and consequential damages.</p>
+        <p><b>Termination</b></p>
+        <p>Dandelion may terminate your access to the app at any time for any reason. Upon termination, you must immediately cease all use of Dandelion.<p>
+        <p><b>Governing Law</b></p>
+        <p>These terms of use will be governed by and construed in accordance with the laws of Australia. Any legal action arising out of or relating to these terms of use will be filed exclusively in the state or federal courts located in Austalia, and you hereby consent to the jurisdiction of those courts.<p>
+        <p><b>Changes to Terms of Use</b></p>
+        <p>Dandelion reserves the right to modify these terms of use at any time. Your continued use of Dandelion following any changes to the terms of use constitutes your acceptance of those changes.<p>
+        <p><b>If you have any questions about these terms of use, please contact us at<a href = ""> Support@Dandelion.com.<a><b><p>
+    ]]>
+    </string>
+
+    <string name="privacy_policy">
+    <![CDATA[
+        <h2>PRIVACY POLICY FOR DANDELION</font></h2>
+        <p>Welcome to Dandelion, an app designed to help students study courses, chat with course mates, do assignments, and quizzes online.
+        At Dandelion, we are committed to protecting your privacy. This privacy policy describes how we collect, use, and share information about you when you use the Dandelion app.</p>
+        <p><b>Information we collect</b></p>
+        <p>We may collect information about you when you use Dandelion, including:</p>
+        <ul>
+        <li><b>Account information:</b> We collect information such as your name, email address, and password when you create an account on Dandelion.</li>
+        <li><b>Usage data:</b>We may collect information about how you use Dandelion, including the features you use, the courses you study, the quizzes you take, and the messages you send.</li>
+        <li><b>Device information:</b> We may collect information about the device you use to access Dandelion, including the type of device, operating system, and device settings.</li>
+        <li><b>Log data:</b> We may collect log data, which includes information such as your IP address, browser type, and pages you visit on Dandelion.</li>
+        </ul>
+        <p><b>How we use your information</b></p>
+        <p>We may use your information for the following purposes:</p>
+        <ul>
+        <li>To provide and improve Dandelion: We use your information to provide and improve the features and functionality of Dandelion.</li>
+        <li>To personalize your experience: We may use your information to personalize your experience on Dandelion, such as by recommending courses or quizzes based on your interests.</li>
+        <li>To communicate with you: We may use your information to communicate with you about Dandelion, including updates, promotions, and support.</li>
+        <li>To enforce our policies: We may use your information to enforce our terms of use and other policies.</li>
+        </ul>
+        <p><b>How we share your information</b></p>
+        <p>We may share your information with the following parties:</p>
+        <ul>
+        <li>Service providers: We may share your information with third-party service providers that help us operate Dandelion, such as hosting providers and analytics providers.</li>
+        <li>Business partners: We may share your information with business partners, such as universities or course providers, to provide you with educational opportunities.</li>
+        <li>Legal purposes: We may share your information in response to a legal request, such as a court order or subpoena.</li>
+        </ul>
+        <p><b>Your choices</b></p>
+        <p>You may have the following choices with respect to your information:</p>
+        <ul>
+        <li>Account information: You may update your account information at any time by logging into Dandelion and editing your profile.</li>
+        <li>Communications: You may opt out of receiving promotional communications from us by following the instructions in those communications.</li>
+        </ul>
+        <p><b>Security</b></p>
+        <p>We take reasonable measures to protect your information from unauthorized access, disclosure, or misuse. However, no security measure is perfect, and we cannot guarantee the security of your information.</p>
+        <p><b>Children\'s privacy</b></p>
+        <p>Dandelion is not intended for use by children under the age of 16. We do not knowingly collect personal information from children under the age of 16.</p>
+        <p><b>Changes to this privacy policy</b></p>
+        <p>We may update this privacy policy from time to time. If we make material changes, we will notify you by email or by posting a notice on Dandelion.</p>
+        <p><b>If you have any questions about this privacy policy or our practices, please contact us at<a href = ""> Support@Dandelion.com.</a></b></p>
+        <p><b>Effective date: 12-04-2023</b></p>
+    ]]>
+    </string>
+
+    <string name="help_context">
+    <![CDATA[
+        <h2>HELP FOR DANDELION</font></h2>
+        <p>If you have any questions about how to use DANDELION, please do not hesitate to reach out to us for assistance.
+        Our dedicated support team is available 24/7 to help you get the most out of our app. </p>
+        <p>You can email us directly at<a href = ""> Support@Dandelion.com.</a></p>
+        <p>We will do our best to provide you with a prompt and helpful response to ensure that you have the best experience possible while using our app.</p>
+
+    ]]>
+    </string>
+
+    <!-- account setting Preferences -->
+    <string name="account_settings_title">Paramètres du compte</string>
+    <string name="logout_title">Se déconnecter</string>
+    <string name="sure_logout">Voulez-vous vraiment vous déconnecter ?</string>
+    <string name="Delete_account">Supprimer le compte</string>
+    <string name="sure_delete">Êtes-vous sûr de vouloir supprimer votre compte ?</string>
+
+    <!-- login page -->
+    <string name="terms_of_use_text">Terms Of Use</string>
+    <string name="privacy_policy_text">Politique de confidentialité</string>
+    <string name="Enter_your_name">Entrez votre nom</string>
+    <string name="Password">Mot de passe</string>
+    <string name="register">S\'inscrire</string>
+    <string name="log_in">Connexion</string>
+    <string name="title_activity_login">Connexion</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter ou s\'inscrire</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="welcome">Bienvenue !</string>
+
+
+    <!-- register -->
+    <string name="Email">E-mail</string>
+    <string name="Name">Nom</string>
+    <string name="Enter_your_school_email">Entrez l\'adresse e-mail de votre école</string>
+    <string name="Confirm_a_password">Confirmez votre mot de passe</string>
+    <string name="Confirm_your_school_email">Confirmez l\'adresse e-mail de votre école</string>
+    <string name="Enter_a_password">Entrez votre mot de passe</string>
+    <string name="JOIN_NOW">JOIGNEZ-VOUS MAINTENANT</string>
+    <string name="invalid_username">Nom d\'utilisateur non valide</string>
+    <string name="invalid_password">Le mot de passe doit comporter >5 caractères</string>
+    <string name="login_failed">Échec de la connexion</string>
+
+    <!-- Settings -->
+    <string name="menu_settings">Paramètres</string>
+    <string name="Settings">Paramètres</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="profile">Mon profil</string>
+    <string name="gender">Sexe</string>
+    <string name="change_password">Modifier le mot de passe</string>
+    <string name="Region_and_Language">Région et langue</string>
+    <string name="region">Région</string>
+    <string name="language">Langue</string>
+    <string name="privacy_settings">Paramètres de confidentialité</string>
+    <string name="Enable_Location">Activer l\'emplacement</string>
+    <string name="Enable_Notifications">Activer les notifications</string>
+
+    <!-- Login notification -->
+    <string name="x_location">L\'autorisation de localisation est requise pour utiliser toutes les fonctionnalités.</string>
+    <string name="alert">Alerte</string>
+    <string name="login_fail">Mauvais e-mail ou mot de passe</string>
+    <string name="close">Fermer</string>
+    <string name="U_empty">Le nom d\'utilisateur ne doit pas être vide</string>
+    <string name="notice">Avis</string>
+    <string name="Register_successful">Enregistrement réussi !</string>
+    <string name="x_email">E-mail non valide</string>
+    <string name="xx_email">Vous êtes déjà inscrit avec cet e-mail</string>
+    <string name="c_email">Veuillez vérifier à nouveau votre e-mail</string>
+    <string name="c_pwd">Veuillez revérifier votre mot de passe</string>
+    <string name="n_email">L\'e-mail ne doit pas être vide</string>
+    <string name="n_pwd">Le mot de passe doit être plus long que 5</string>
+    <string name="location_error">Impossible d\'obtenir l\'emplacement actuel</string>
+
+    <!-- Deadline -->
+    <string name="text_calender">Calendrier</string>
+    <string name="text_todo">Liste de tâches</string>
+
+    <!-- course page -->
+    <string name="course_name">Nom du cours</string>
+    <string name="course_id">Identifiant du cours</string>
+    <string name="course_date">Date du cours</string>
+    <string name="course_category">Catégorie de cours</string>
+    <string name="course_teacher">Professeur de cours</string>
+    <string name="Comment">Commentaire</string>
+    <string name="Comment_date">Date du commentaire</string>
+    <string name="Comment_text">Texte du commentaire</string>
+
+    <!-- course home page -->
+    <string name="sort_by_time" >Trier par heure</string>
+    <string name="sort_by_cno" >Trier par Cno</string>
+    <string name="course_description">Description du cours</string>
+    <string name="course_content">Contenu du cours</string>
+    <string name="course_info">Informations sur le cours</string>
+    <string name="course_link">Lien du cours</string>
+    <string name="write_comment">Ecrire un commentaire</string>
+    <string name="drop_course">ABANDONNER LE COURS</string>
+
+    <!-- search page -->
+    <string name="search">Rechercher</string>
+    <string name="search_cno">Cno</string>
+    <string name="search_date">Date</string>
+    <string name="search_sort_by">Trier par :</string>
+    <string name="title_search_navigation" translatable="false">Activité de recherche</string>
+    <string name="no_course_found">Aucun cours trouvé</string>
+
+    <!-- nav page -->
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">nom d\'utilisateur</string>
+    <string name="Privacy">Confidentialité</string>
+    <string name="Help">Aide</string>
+    <string name="menu_transform">Mon cours</string>
+    <string name="menu_home">Mon cours</string>
+    <string name="menu_deadline">Date limite</string>
+    <string name="menu_courselist">Liste des cours</string>
+    <string name="menu_slideshow">Date limite</string>
+    <string name="menu_chat">Discuter</string>
+    <string name="title_activity_navigation">Activité de navigation</string>
+
+    <!-- chat page -->
+    <string name="chat_send">envoyer</string>
+</resources>

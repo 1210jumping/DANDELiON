@@ -1,0 +1,402 @@
+[
+  {
+    "cid": 1,
+    "cname": "Introduction to Programming",
+    "lecturer": "Samantha Brown",
+    "subject": "Health Sciences",
+    "imgURL": "",
+    "releaseDate": "2022-01-01"
+  },
+  {
+    "cid": 2,
+    "cname": "Database Management",
+    "lecturer": "Brian Johnson",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2022-03-21"
+  },
+  {
+    "cid": 3,
+    "cname": "Artificial Intelligence",
+    "lecturer": "Thomas Wilson",
+    "subject": "Science",
+    "imgURL": "",
+    "releaseDate": "2021-08-15"
+  },
+  {
+    "cid": 4,
+    "cname": "Computer Networks",
+    "lecturer": "Chloe Smith",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2022-02-17"
+  },
+  {
+    "cid": 5,
+    "cname": "Web Development",
+    "lecturer": "Maria Garcia",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2022-11-03"
+  },
+  {
+    "cid": 6,
+    "cname": "Software Engineering",
+    "lecturer": "John Smith",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2022-07-18"
+  },
+  {
+    "cid": 7,
+    "cname": "Digital Signal Processing",
+    "lecturer": "Eric Collins",
+    "subject": "Science",
+    "imgURL": "",
+    "releaseDate": "2021-06-26"
+  },
+  {
+    "cid": 8,
+    "cname": "Linear Algebra",
+    "lecturer": "Jane Doe",
+    "subject": "Business",
+    "imgURL": "",
+    "releaseDate": "2022-09-12"
+  },
+  {
+    "cid": 9,
+    "cname": "Statistics",
+    "lecturer": "Stephanie Davis",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2022-03-15"
+  },
+  {
+    "cid": 10,
+    "cname": "International Business",
+    "lecturer": "Stephanie Davis",
+    "subject": "Law",
+    "imgURL": "",
+    "releaseDate": "2022-06-01"
+  },
+  {
+    "cid": 11,
+    "cname": "Financial Management",
+    "lecturer": "Samantha Brown",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2021-04-26"
+  },
+  {
+    "cid": 12,
+    "cname": "Marketing",
+    "lecturer": "Liam Gonzalez",
+    "subject": "Law",
+    "imgURL": "",
+    "releaseDate": "2022-10-22"
+  },
+  {
+    "cid": 13,
+    "cname": "Organizational Behavior",
+    "lecturer": "Thomas Wilson",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2021-03-12"
+  },
+  {
+    "cid": 14,
+    "cname": "Human Resource Management",
+    "lecturer": "Chloe Smith",
+    "subject": "Health Sciences",
+    "imgURL": "",
+    "releaseDate": "2022-05-15"
+  },
+  {
+    "cid": 15,
+    "cname": "Microeconomics",
+    "lecturer": "Brandon Ramirez",
+    "subject": "Law",
+    "imgURL": "",
+    "releaseDate": "2021-09-01"
+  },
+  {
+    "cid": 16,
+    "cname": "Macroeconomics",
+    "lecturer": "Emily Davis",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2022-01-02"
+  },
+  {
+    "cid": 17,
+    "cname": "Criminal Law",
+    "lecturer": "Diana Robinson",
+    "subject": "Mathematics",
+    "imgURL": "",
+    "releaseDate": "2022-05-27"
+  },
+  {
+    "cid": 18,
+    "cname": "Contract Law",
+    "lecturer": "Stephanie Davis",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2021-04-14"
+  },
+  {
+    "cid": 19,
+    "cname": "International Law",
+    "lecturer": "Liam Gonzalez",
+    "subject": "Health Sciences",
+    "imgURL": "",
+    "releaseDate": "2021-03-01"
+  },
+  {
+    "cid": 20,
+    "cname": "Constitutional Law",
+    "lecturer": "Diana Robinson",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2021-01-22"
+  },
+  {
+    "cid": 21,
+    "cname": "Abnormal Psychology",
+    "lecturer": "Nancy Wilson",
+    "subject": "Science",
+    "imgURL": "",
+    "releaseDate": "2021-05-15"
+  },
+  {
+    "cid": 22,
+    "cname": "Social Psychology",
+    "lecturer": "Chloe Smith",
+    "subject": "Health Sciences",
+    "imgURL": "",
+    "releaseDate": "2021-10-18"
+  },
+  {
+    "cid": 23,
+    "cname": "Developmental Psychology",
+    "lecturer": "Diana Robinson",
+    "subject": "Business",
+    "imgURL": "",
+    "releaseDate": "2022-12-22"
+  },
+  {
+    "cid": 24,
+    "cname": "Cognitive Psychology",
+    "lecturer": "Thomas Wilson",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2021-10-19"
+  },
+  {
+    "cid": 25,
+    "cname": "Nutrition and Health",
+    "lecturer": "Emily Davis",
+    "subject": "Business",
+    "imgURL": "",
+    "releaseDate": "2022-06-16"
+  },
+  {
+    "cid": 26,
+    "cname": "Physical Fitness",
+    "lecturer": "Chloe Smith",
+    "subject": "Health Sciences",
+    "imgURL": "",
+    "releaseDate": "2022-12-05"
+  },
+  {
+    "cid": 27,
+    "cname": "Yoga and Meditation",
+    "lecturer": "Michael Brown",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2021-07-19"
+  },
+  {
+    "cid": 28,
+    "cname": "Public Speaking",
+    "lecturer": "Christopher Perez",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2022-09-02"
+  },
+  {
+    "cid": 29,
+    "cname": "Effective Communication",
+    "lecturer": "Chloe Smith",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2021-06-04"
+  },
+  {
+    "cid": 30,
+    "cname": "Leadership",
+    "lecturer": "Nancy Wilson",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2022-04-27"
+  },
+  {
+    "cid": 31,
+    "cname": "Environmental Science",
+    "lecturer": "Eric Collins",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2022-05-09"
+  },
+  {
+    "cid": 32,
+    "cname": "Chemistry",
+    "lecturer": "Liam Gonzalez",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2022-01-13"
+  },
+  {
+    "cid": 33,
+    "cname": "Biology",
+    "lecturer": "David Lee",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2022-05-02"
+  },
+  {
+    "cid": 34,
+    "cname": "Physics",
+    "lecturer": "Evelyn Parker",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2021-11-12"
+  },
+  {
+    "cid": 35,
+    "cname": "Astronomy",
+    "lecturer": "Brian Johnson",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2022-11-08"
+  },
+  {
+    "cid": 36,
+    "cname": "Geology",
+    "lecturer": "Michael Brown",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2022-01-23"
+  },
+  {
+    "cid": 37,
+    "cname": "Mathematics",
+    "lecturer": "Evelyn Parker",
+    "subject": "Business",
+    "imgURL": "",
+    "releaseDate": "2022-08-14"
+  },
+  {
+    "cid": 38,
+    "cname": "Data Science",
+    "lecturer": "Liam Gonzalez",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2021-05-09"
+  },
+  {
+    "cid": 39,
+    "cname": "Robotics",
+    "lecturer": "Brian Johnson",
+    "subject": "Mathematics",
+    "imgURL": "",
+    "releaseDate": "2021-12-16"
+  },
+  {
+    "cid": 40,
+    "cname": "Materials Science",
+    "lecturer": "David Lee",
+    "subject": "Mathematics",
+    "imgURL": "",
+    "releaseDate": "2022-03-25"
+  },
+  {
+    "cid": 41,
+    "cname": "Mechanical Engineering",
+    "lecturer": "Diana Robinson",
+    "subject": "Law",
+    "imgURL": "",
+    "releaseDate": "2021-10-17"
+  },
+  {
+    "cid": 42,
+    "cname": "Electrical Engineering",
+    "lecturer": "Emily Davis",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2021-03-07"
+  },
+  {
+    "cid": 43,
+    "cname": "Civil Engineering",
+    "lecturer": "Brandon Ramirez",
+    "subject": "Art",
+    "imgURL": "",
+    "releaseDate": "2022-05-04"
+  },
+  {
+    "cid": 44,
+    "cname": "Architecture",
+    "lecturer": "Diana Robinson",
+    "subject": "Psychology",
+    "imgURL": "",
+    "releaseDate": "2022-05-23"
+  },
+  {
+    "cid": 45,
+    "cname": "Fashion Design",
+    "lecturer": "Diana Robinson",
+    "subject": "Law",
+    "imgURL": "",
+    "releaseDate": "2022-11-23"
+  },
+  {
+    "cid": 46,
+    "cname": "Graphic Design",
+    "lecturer": "David Lee",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2022-08-14"
+  },
+  {
+    "cid": 47,
+    "cname": "Photography",
+    "lecturer": "David Lee",
+    "subject": "Engineering",
+    "imgURL": "",
+    "releaseDate": "2021-04-28"
+  },
+  {
+    "cid": 48,
+    "cname": "Film Making",
+    "lecturer": "Liam Gonzalez",
+    "subject": "Business",
+    "imgURL": "",
+    "releaseDate": "2021-11-03"
+  },
+  {
+    "cid": 49,
+    "cname": "Music Production",
+    "lecturer": "Christopher Perez",
+    "subject": "Computer Science",
+    "imgURL": "",
+    "releaseDate": "2022-11-01"
+  },
+  {
+    "cid": 50,
+    "cname": "Software Construction",
+    "lecturer": "Liam Gonzalez",
+    "subject": "Science",
+    "imgURL": "",
+    "releaseDate": "2022-04-03"
+  }
+]

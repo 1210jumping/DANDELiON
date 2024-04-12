@@ -1,0 +1,66 @@
+## Pledge of Academic Integrity
+<DO NOT MODIFY THE STRUCTURE OF THIS FILE>
+
+I am committed to being a person of integrity.
+
+I pledge, as a member of the Australian National University community,
+to abide by and uphold the standards of academic integrity outlined in
+the ANU statement on
+[honesty and plagiarism](http://www.anu.edu.au/students/program-administration/assessments-exams/academic-honesty-plagiarism),
+and I am aware of the relevant
+[legislation](https://www.legislation.gov.au/Details/F2021L00997),
+and understand the consequences of me breaching those rules. I confirm that my answers to the questions below will be truthful, up to date and complete.
+# for information & examples on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+# this document has been modified for the purpose of the COMP2100/6442 group assignment.
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely our
+  own work, with the following exceptions:
+
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external code)
+code:
+  - comment: Using the basic code for Red Black Tree from 6442 homework.
+    url: https://gitlab.cecs.anu.edu.au/comp2100/student-resources/comp2100-homework/-/blob/main/RedBlackTrees/src/RBTree.java
+    licence: fair use
+
+assets:
+  - comment: Using the list view and card view layout
+    url: https://developer.android.com/reference/android/widget/ListView
+    licence: fair use
+
+
+### Questions (answer before final submission):
+1. You (as a group) completed this work (tick the most appropriate option): 
+  - [x] by yourself (as a group) without the help of others;
+  - [ ] with Gen AI tools (e.g., ChatGPT, Co-Pilot).
+
+2. If not completed by yourself only, how did the use of Gen AI tools (and which ones), contribute to completing this assignment? 
+  - Tool(s): <tools used here>
+
+3. How did they contribute to the completion of this assignment?
+  - name: Jinhan Tan <20%>
+  - name: Zhuxuan Yan <20%>
+  - name: Yifan Zhu <20%>
+  - name: Zixuan Wang <20%>
+  - name: Pin-Shen Chang <20%>
+
+4. How long did it take to complete this assignment (approximately, in hours)?
+  - <your answer here> hours
+500
+
+
+# for each member, sign by inputting your name and uid here (remove any empty "name+uid" entries)
+members:
+  - name: Jinhan Tan
+    uid: u7532738
+  - name: Zhuxuan Yan
+    uid: u6706220
+  - name: Yifan Zhu
+    uid: u7560434
+  - name: Zixuan Wang
+    uid: u7516976
+  - name: Pin-Shen Chang
+    uid: u7518626

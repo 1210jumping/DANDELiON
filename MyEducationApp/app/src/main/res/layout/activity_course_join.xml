@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.course.CourseJoinActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/course_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/course_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_date"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/course_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_id"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/course_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_category"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/teacher_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_teacher"
+                android:textSize="14sp" />
+
+            <!-- course button -->
+            <Button
+                android:id="@+id/join_course_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/JOIN_NOW" />
+
+            <TextView
+                android:id="@+id/Comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Comment"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <ListView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                app:layoutManager="LinearLayoutManager"
+                tools:context=".ui.navigation.courselist.CourselistFragment" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

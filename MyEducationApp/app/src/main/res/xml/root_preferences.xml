@@ -1,0 +1,83 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="My Profile">
+
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="name"
+            app:summary="my name"
+            app:title="@string/Name"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/reply_gender"
+            android:entryValues="@array/reply_gender"
+            android:summary="111"
+            android:key="gender"
+            android:title="@string/gender" />
+
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:key="email"
+            app:title="@string/Email"
+            app:useSimpleSummaryProvider="true" />
+
+<!--        <EditTextPreference-->
+<!--            android:key="password"-->
+<!--            android:selectAllOnFocus="true"-->
+<!--            android:singleLine="true"-->
+<!--            android:title="@string/Password"-->
+<!--            app:summary="@string/change_password"-->
+<!--            />-->
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/Region_and_Language">
+
+        <ListPreference
+            android:entries="@array/reply_country"
+            android:entryValues="@array/reply_country"
+            android:key="region"
+            android:title="@string/region" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/reply_language"
+            android:entryValues="@array/reply_language"
+            android:key="language"
+            android:title="@string/language" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="@string/privacy_settings">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/Enable_Location" />
+
+        <SwitchPreferenceCompat
+            app:key="attachment"
+            app:title="@string/Enable_Notifications" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/account_settings_title">
+        <Preference
+            app:key="logout"
+            app:title="@string/logout_title" />
+
+<!--        <Preference-->
+<!--            app:key="Delete_account"-->
+<!--            app:title="@string/Delete_account"/>-->
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
