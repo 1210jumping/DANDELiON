@@ -8,7 +8,7 @@
 4. [Summary of Known Errors and Bugs](#summary-of-known-errors-and-bugs)
 5. [Testing Summary](#testing-summary)
 6. [Implemented Features](#implemented-features)
-7. [Team Meetings](#team-meetings)
+7. [Team Meetings](#team-meeting)
 
 ## Application Description
 
@@ -97,7 +97,7 @@
 
 ## Application UML
 
-![UML-Class Diagram](./images/uml_classgraph.jpg)
+![UML-Class Diagram](./items/images/uml_classgraph.jpg)
 
  <br>
 
