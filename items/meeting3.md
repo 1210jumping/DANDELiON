@@ -1,6 +1,6 @@
 # [DANDELiON]
 
-## Team Meeting 3 - Week 9 - Monda, 1th May 2023 (19:00 pm - 20:00 pm)
+## Team Meeting 3 - Week 9 - Monday, 1th May 2023 (19:00 pm - 20:00 pm)
 **Absent:**
 
 No members were absent.
