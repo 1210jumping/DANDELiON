@@ -18,7 +18,7 @@
 
 **Application Use Guide:**
 
-*For the Application Use Guide, please see the following external links to the documentation.[Application Use Guide](./ApplicationUseGuide.md)*
+*For the Application Use Guide, please see the following external links to the documentation.[Application Use Guide](./items/ApplicationUseGuide.md)*
 
 **Target Users**
 
