@@ -461,11 +461,11 @@ This is a screenshot of test coverage:
 
 *Here is an example (you could start numbering your meetings from 1):*
 
-- *[Team Meeting 1](./meeting1.md)*
-- *[Team Meeting 2](./meeting2.md)*
-- *[Team Meeting 3](./meeting3.md)*
-- *[Team Meeting 4](./meeting4.md)*
-- *[Team Meeting 5](./meeting5.md)*
+- *[Team Meeting 1](./items/meeting1.md)*
+- *[Team Meeting 2](./items/meeting2.md)*
+- *[Team Meeting 3](./items/meeting3.md)*
+- *[Team Meeting 4](./items/meeting4.md)*
+- *[Team Meeting 5](./items/meeting5.md)*
 
 
 
