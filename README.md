@@ -250,7 +250,7 @@ Google Maps location permissions.*
 
 This is a screenshot of test coverage:
 
-![testCoverage](./images/testCoverage.png)
+![testCoverage](./items/images/testCoverage.png)
 
 ## Implemented Features
 
