@@ -270,13 +270,13 @@ This is a screenshot of test coverage:
     * Class:[LocalFileToFirebase](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/data/dataUtils/LocalFileToFirebase.java)
     * Class:[Comment.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/Comment.java)
     * Class:[CommentDao.class](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/DAO/CommentDAO/CommentDao.java)
-    * File: [comment.xml](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/assets/comment.xml)
+    * File: [comment.xml](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/assets/comment.xml)
 
    Additional description: 2500 comment data is generated randomly and be writen to firebase. All comments can be loaded from firebase and feeded to our app. Users can see comments in course detail page. <br>
 
 3. [Search]. Users must be able to search for information on your app. (medium)
    * Class:[SearchActivity.java](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/java/com/example/myeducationapp/ui/navigation/SearchActivity.java)
-   * Class:[search_course.xml](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/layout/search_course.xml)
+   * Class:[search_course.xml](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/layout/search_course.xml)
 
    Additional description: This page provides user to seach courses based on different keywords, i.e. course number(`CNO`), course name(`CNAME`), subject(`SUB`) and lecturer(`LEC`). This function is implecated by tokenizer and parser by analyse the input string into different tokens then perform search operation. 
    <br>
@@ -448,11 +448,11 @@ This is a screenshot of test coverage:
 **Feature Category: Others**<br>
 
 18. [Multilingual assistive features] To enhance the user experience and expand the audience, multilingualism is set up.
-    * Class: [strings.xml(English)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/values/strings.xml)
-    * Class: [strings.xml(Japanese)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/values-ja/strings.xml)
-    * Class: [strings.xml(French)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/values-fr/strings.xml)
-    * Class: [strings.xml(Simplified_Chinese)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/values-zh-rCN/strings.xml)
-    * Class: [strings.xml(Traditional_Chinese)](https://gitlab.cecs.anu.edu.au/u7532738/ga-23s1-comp2100-6442/-/blob/main/MyEducationApp/app/src/main/res/values-zh-rTW/strings.xml)
+    * Class: [strings.xml(English)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/values/strings.xml)
+    * Class: [strings.xml(Japanese)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/values-ja/strings.xml)
+    * Class: [strings.xml(French)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/values-fr/strings.xml)
+    * Class: [strings.xml(Simplified_Chinese)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/values-zh-rCN/strings.xml)
+    * Class: [strings.xml(Traditional_Chinese)](https://github.com/1210jumping/GA-23S1-Comp2100-6442/tree/main/MyEducationApp/app/src/main/res/values-zh-rTW/strings.xml)
 
    Additional description: We have set up five languages for all the basic functions of the app: English, Japanese, French, Simplified Chinese, and Traditional Chinese. This multilingual setup not only shows our commitment to inclusivity and user experience, but also positions the app for greater reach in international markets.
      
