@@ -1,4 +1,4 @@
-# [DANDELiON] Report
+# [DANDELiON]
 
 ## Table of Contents
 
