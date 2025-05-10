@@ -55,9 +55,9 @@ public class DeadlineshowFragment extends Fragment {
 
     // function to get Data
     private void getData(){
-        String[]dates={"2023-05-06","2023-05-09","2023-05-18","2023-05-28",
-                "2023-06-02","2023-06-16","2023-06-23","2023-06-27",
-                "2023-07-06","2023-07-09","2023-07-19","2023-07-22"};
+        String[] dates = {"2025-05-11", "2025-05-12", "2025-05-13", "2025-05-14",
+                "2025-06-02", "2025-06-16", "2025-06-23", "2025-06-27",
+                "2025-07-06", "2025-07-09", "2025-07-19", "2025-07-22"};
         String[]todoLists={"Finish assignment","Listen to recording","Attend lab","Go to workshop","Group meeting",
         "Do quiz online","See convener","Go to drop-in session","Send emails to tutor","Attend exam",
                 "Prepare exam","Do assignment","Check the wattle","Download course material"};
