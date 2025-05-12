@@ -282,7 +282,7 @@ public class RegisterActivity extends AppCompatActivity {
                 // ignore
                 // 在文字變更前檢查使用者名稱是否為空，如果是則設定錯誤訊息
                 if (user_name == null || user_name.getText().toString().length() == 0)
-                    user_name.setError("電子郵件格式無效"); // "Not a valid email" -> "電子郵件格式無效" (此處應為使用者名稱，但錯誤訊息寫 email)
+                    user_name.setError("Not a valid username");
             }
 
             @Override
@@ -294,7 +294,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 // 在文字變更後檢查使用者名稱是否為空，如果是則設定錯誤訊息
                 if (user_name == null || user_name.getText().toString().length() == 0)
-                    user_name.setError("電子郵件格式無效"); // "Not a valid email" -> "電子郵件格式無效" (此處應為使用者名稱，但錯誤訊息寫 email)
+                    user_name.setError("Not a valid username");
             }
         };
         user_name.addTextChangedListener(afterTextChangedListener0); // 為使用者名稱輸入框加入文字變更監聽器
